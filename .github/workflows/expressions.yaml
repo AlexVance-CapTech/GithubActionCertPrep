@@ -9,7 +9,7 @@ on:
 
 jobs:
   expression-functions: 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     env:
       JobVal: '{"hello":"world"}'
     steps:
