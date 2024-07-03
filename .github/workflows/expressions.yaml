@@ -8,7 +8,7 @@ on:
     types: [opened, labeled]
 
 jobs:
-  expression-functions:
+  expression-functions: 
     runs-on: ubuntu-latest
     env:
       JobVal: '{"hello":"world"}'
